@@ -1,0 +1,119 @@
+body{
+    font-size: 20px;/*Pone una fuente de letra de 20 pixels*/
+}
+#contenedor{
+    display: block;/*Le asignamos display block para que salgan por pantalla uno encima de otro*/
+    margin-left: 5rem;/*ponems un margen por la izquierda de 5 rem*/
+    width: 83%;/*una anchura del 83 porciento respcto a su antecesor*/
+}
+#menu{
+    background-color: #f5f6f7;/*le ponemos un color de fondo*/
+    padding-bottom: 15rem;/*le ponemos un relleno por abajo de 15 rem*/
+    width: 17%;/*una anchura del 17 porciento respecto a su antecesor*/
+    left: 0;/*Lo movemos a la izquierda*/
+    top: 0;/*Lo movemos arriba*/
+    height: 100%;/*tiene una altura del 100%*/
+    
+}
+#general{
+    display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+    width: 100%;/*tiene un ancho del 100% respecto a su antecesor*/
+}
+#menu h1{
+    padding-bottom: 1rem;/*ponemos un relleno por abajo de 1rem*/
+}
+#menu nav ul li{
+    padding-bottom: 2rem;/*ponemos un relleno por abajo de 2rem*/
+}
+ul {
+    list-style: none; /*le quitamos los puntos a la lista*/
+}
+#menu li:hover>ul{
+    display: block;/*Le asignamos display block para que salgan por pantalla uno encima de otro*/
+}
+.submenu{
+    display: none;/*le decimos que no se muestre*/
+}
+
+a{
+    color: black;/*cambiamos el color de las letras*/
+    text-decoration: none;/*le decimos que no tenga "decoracion" en este caso una linea que subralle al enlace*/
+}
+
+strong{
+    color: #3d4449;/*cambiamos el color*/
+    font-weight: 600; /*le decimos la fuente de letra*/
+}
+#redes{
+    display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+}
+#redes li{
+    padding-right: 3px;/*ponemos un relleno de 3px por la derecha*/
+}
+#header{
+    display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+    width: 100%;/*ponemos un relleno del 100%*/
+}
+#editorial{
+    width: 90%;/*ponemos un relleno del 90% respecto al antecesor*/
+}
+#enlaces{
+    width: 10%;/*ponemos un relleno del 10% respecto al antecesor*/
+}
+#header nav{
+    text-align: right;/*alineamos el texto a la derecha*/
+}
+hr{
+    border: 2px salmon solid;/*ponemos un borde que se vea con un color y de 2px*/
+}
+#texto{
+    display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+}
+.boton{
+    border: 2px salmon solid;/*ponemos un borde que se vea con un color y de 2px*/
+    color: salmon;/*cambiamos el color de la letra*/
+    border-radius: 15px;/*le decimos que las esquinas esten redondeadas 15px*/
+}
+.div_cuadrados{
+	display: block;/*Le asignamos display block para que salgan por pantalla uno encima de otro*/
+	flex-wrap: wrap;/*les decimos que no tienen porque estar alineados y que pueden estar en distintas lineas*/
+}
+.par{
+	display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+}
+.info{
+    display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+}
+.rombo{
+    padding: 35px;/*le ponemos un relleno de 35 px*/
+    border: solid gray 1px;/*ponemos un borde de 1 px que se vea con solid y de color gris*/
+    color: #f56a6a;/*le decimos que el color que tendra*/
+    margin-right: 40px;/*ponemos un margen por la derecha*/
+    height: 2px;/*tiene una altura de dos px*/
+    transform: rotate(45deg);/*le decimos que rote el objeto 45 grados*/
+}
+.rombo i{
+    transform: rotate(-45deg);/*Le hacemos rotar 45 grados en sentido inverso*/
+    position: absolute;/*Se posiciona de manera absoluta sobre su antecesor*/
+    top: 40%;/*Se mueve hacia arriba un 40%*/
+    left: 40%;/*Se mueve hacia la izquierda un 40%*/
+}
+.bloque{
+    display: block;/*Le asignamos display block para que salgan por pantalla uno encima de otro*/
+}
+.contenido{
+    display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+}
+.izq{
+    margin-right: 20%;/*Ponemos un margen por la derecha del 20%*/
+}
+.barra_izq{
+    display: block;/*Le asignamos display block para que salgan por pantalla uno encima de otro*/
+    width: 100%;/*Le decimos que tenga un ancho del 100% respecto al que le precede*/
+}
+.contacto{
+    display: block;/*Le asignamos display block para que salgan por pantalla uno encima de otro*/
+}
+.logo_contacto{
+    display: flex;/*Le asignamos display flex para que salgan por pantalla una al lado del otro*/
+}
